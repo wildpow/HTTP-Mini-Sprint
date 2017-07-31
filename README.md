@@ -21,6 +21,8 @@ const action = () => {
 };
 ```
 
+Hint: The URL you want to be fetching from is `http://localhost:5000/friends`. 
+
 Once you get through the sprint and have the list of friends being rendered by the FriendsList component, take some time to do some reading on Promises, Ajax, and any of the other topics we touched upon during the lecture. 
 
 ### Helpful Links
