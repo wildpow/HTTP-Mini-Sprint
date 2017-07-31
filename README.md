@@ -7,7 +7,7 @@
 
 In this mini sprint, you'll be eased into the code base for the actual HTTP sprint. Upon cloning this repository down, take a moment to look over the different pieces that are already in here. There shouldn't be anything too scary; it's just another React app that was created with `create-react-app`. The important bits are the actions, components, and reducers directories.
 
-To run the mini sprint code, first run `npm install` in the root directory. Then run `node server.js`. In _another_ terminal, cd into the `http` directory, run `npm install`, then `npm start`.  
+To run the mini sprint code, first run `npm install` in the root directory. Then run `node server.js`. In _another_ terminal, cd into the `http` directory, run `npm install`, then `npm start`. You'll see that we have a non-functioning React/Redux app with some compilation errors. 
 
 The FriendsList component renders an array of friend objects. This array needs to be fetched from an external server. Your job for this mini sprint is to complete the GET request in order to populate the FriendsList component. Inside `index.js` in the actions directory, there is a `getFriends` action creator. This is where the GET request should go. Since Redux-Promise is already in place (you can see it being applied in the app's main `index.js` file), you'll follow the pattern we talked about at the end of the lecture. In case you missed it, it looks like this:
 
